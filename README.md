@@ -12,7 +12,7 @@ This project aims to simulate an Advanced Driver Assistance System (ADAS) featur
 
 # Code Overview:
 
-The Python script uses OpenCV to read the original video, resize it, and overlay backup guidelines onto each frame. Here's a brief overview of the key components:
+- The Python script uses OpenCV to read the original video, resize it, and overlay backup guidelines onto each frame. Here's a brief overview of the key components:
 
 1.**Input Files:**
 - Original video: ten_sec_clip.mov from the iPhone 12 Pro Max.
@@ -39,3 +39,8 @@ The original video is resized to a custom dimension (415x240) to match the desir
 
 # Conclusion:
 This project demonstrates a simple yet effective simulation of ADAS features by overlaying backup guidelines on an iPhone 12 Pro Max video. The implemented logic enhances driver awareness during reverse maneuvers, contributing to overall vehicle safety.
+
+# Additional Notes
+
+The prototype includes a pre-configured index.html file, providing a visual representation of the project. Simply open the HTML file in a web browser to view the prototype.
+Remember to verify and adjust file paths in the code to match your local machine's directory structure.
